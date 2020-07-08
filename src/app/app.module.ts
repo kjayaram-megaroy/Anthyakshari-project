@@ -10,13 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatchingRoomComponent } from './matching-room/matching-room.component';
 import { HomepageReusecodeComponent } from './homepage-reusecode/homepage-reusecode.component';
+import { CompleteOnlineComponent } from './complete-online/complete-online.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,ChangePasswordComponent, HomeComponent, MatchingRoomComponent, HomepageReusecodeComponent
+    AppComponent,ChangePasswordComponent, HomeComponent, MatchingRoomComponent, HomepageReusecodeComponent, CompleteOnlineComponent
   ],
   imports: [
     BrowserModule,

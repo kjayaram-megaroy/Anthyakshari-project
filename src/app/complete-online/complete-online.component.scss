@@ -1,0 +1,170 @@
+.size{
+    width: 50px;
+    height: 50px;
+    color: white;
+   
+}
+.size:hover{
+    opacity: 0.5;
+    }
+.coin{
+    width: 40px;
+    height: 40px;
+}
+.coin:hover{
+opacity: 0.5;
+}
+.header{
+    background-color: #003333;
+}
+.size-b {
+    width: 100px;
+    height: 100px;
+}
+.camera{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: gray;
+    position: relative;
+    left: 108px;
+    bottom: 50px;
+    
+}
+.camera-img{
+    color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+  top: 3px;
+  left: 5px;
+}
+.follow{
+    width: 20px;
+    height: 20px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.icons:hover{
+    opacity: 0.5;
+    }
+.col-md-2side{
+    border-right: 2px solid black;
+    box-shadow: 1px 0px gray;
+ 
+}
+.play-box{
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+    background: linear-gradient(#33cccc,#6699cc);
+    
+}
+.btn-position{
+    width: 280px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 145px;
+    background: linear-gradient(#ff00cc,#333399);
+}
+.btn-position:hover{
+    opacity: 0.8;
+    }
+.img-position{
+    position: relative;
+    right: 7px;
+    bottom: 50px;
+}
+
+.btn-w{
+    width: 220px; 
+
+}
+.btn-rightnav:hover{
+    opacity: 0.5;
+    }
+.btn-rightnav{
+    background: linear-gradient(#ff00cc,#333399);
+}
+.right-layout {
+    border-left: 2px solid black;
+    box-shadow: 0px 0px 1px 0px gray;
+
+}
+.lessthen{
+    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+}
+.position-lessthen{
+    position: relative;
+    bottom: 6px;
+    right: 3px;
+}
+.search{
+    position: relative;
+    bottom: 15px;
+    }
+    input{
+    border:3px solid white;
+    height:40px;
+    width:300px;
+    border-radius: 50px;
+    padding :0px 10px;
+    outline: none;
+    
+    }
+    
+    #search-bar{
+    // position: relative;
+    // top: 10;
+    color: black;
+    font-size: 19px;
+    }
+    .w-75{
+        background-color: #33cccc;
+        border-radius: 15px;
+    }
+    .font-online{
+        font-weight: bold;
+    }
+    .button-borders{
+        border-radius: 10px;
+    }
+    .button-border{
+        border-radius: 10px;
+        text-align: left;
+    }
+   
+// @media only screen and (max-width:500px){
+//     .play-box{
+//         width: 150px;
+//         height: 100px;
+//         border-radius: 10px;
+//         background: linear-gradient(#33cccc,#6699cc);
+        
+//     }
+//     .img-position{
+//         width: 150px;
+//         height: 150px;
+//     }
+//     .btn-position{
+//         width: 150px;
+//         border-radius: 5px;
+//         position: relative;
+//         bottom: 70px;
+//         background: linear-gradient(#ff00cc,#333399);
+//     }
+//     .col-md-2{
+//         width: 10%;
+//     }
+//     .col-md-8{
+//         width: 80%;
+//     }
+//     .bg-dark{
+//         display: none;
+//     }
+// }
