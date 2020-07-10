@@ -11,13 +11,17 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatchingRoomComponent } from './matching-room/matching-room.component';
 import { HomepageReusecodeComponent } from './homepage-reusecode/homepage-reusecode.component';
 import { CompleteOnlineComponent } from './complete-online/complete-online.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,ChangePasswordComponent, HomeComponent, MatchingRoomComponent, HomepageReusecodeComponent, CompleteOnlineComponent
+    AppComponent,ChangePasswordComponent, HomeComponent, MatchingRoomComponent, HomepageReusecodeComponent, CompleteOnlineComponent,ForgotPasswordComponent,
+     LandingpageComponent,
   ],
   imports: [
     BrowserModule,
